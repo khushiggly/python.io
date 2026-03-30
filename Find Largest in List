@@ -1,0 +1,9 @@
+L = [10, 45, 23, 89, 67]
+
+max_val = L[0]
+
+for i in L:
+    if i > max_val:
+        max_val = i
+
+print("Largest =", max_val)
